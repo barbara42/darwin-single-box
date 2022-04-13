@@ -8,6 +8,8 @@
  PTRACERS_useGMRedi(:)= 101*.TRUE.,
  PTRACERS_useKPP(:)= 101*.TRUE.,
 #
+ PTRACERS_ref(  :,1) = 2000.
+#
  PTRACERS_names(  1)= 'DIC',
  PTRACERS_names(  2)= 'NO3',
  PTRACERS_names(  3)= 'NO2',
