@@ -4,16 +4,8 @@
 # Continuous equation parameters
 # ******************************
 &PARM01
-tRef= 24.0 , 23.0 , 22.0 , 21.0 , 20.0 ,
-      19.0 , 18.0 , 17.0 , 16.0 , 15.0 ,
-      14.0 , 13.0 , 12.0 , 11.0 , 10.0 ,
-       9.0 ,  8.0 ,  7.0 ,  6.0,   5.0 ,
-       4.0 ,  3.0 ,  2.0 ,
-sRef= 34.65, 34.75, 34.82, 34.87, 34.90,
-      34.90, 34.86, 34.78, 34.69, 34.60,
-      34.58, 34.62, 34.68, 34.72, 34.73,
-      34.74, 34.73, 34.73, 34.72, 34.72,
-      34.71, 34.70, 34.69,
+tRef= 20.0 , 20.0,
+sRef= 35.0 , 35.0,
 no_slip_sides=.false.,
 no_slip_bottom=.TRUE.,
 viscAz=1.E-3,
@@ -82,22 +74,21 @@ cg2dTargetResidual=1.E-7,
 # Gridding parameters
 # *******************
 &PARM04
-usingCartesianGrid=.FALSE.,
-usingSphericalPolarGrid=.TRUE.,
-delX=360*1.E0,
-delY=160*1.E0,
-delZ=10.,10.,15.,20.,20.,25.,35.,50.,75.,
-100.,150.,200.,275.,350.,415.,450.,500.,
-500.,500.,500.,500.,500.,500.,
-xgOrigin=0,
-ygOrigin=-80.,
+usingCartesianGrid=.TRUE.,
+usingSphericalPolarGrid=.FALSE.,
+delX=1.E0,
+delY=1.E0,
+delZ=1.,1.,
+# xgOrigin=0,
+# ygOrigin=-80.,
 /
 
 # **********
 # Data Files
 # **********
 &PARM05
-bathyFile=       '/home/stephdut/Input/input_ecco/bathy_fl.bin',
+# bathyFile=       '/home/stephdut/Input/input_ecco/bathy_fl.bin',
+bathyFile=       ' ',
 #hydrogThetaFile= 'input/LEVITUS_1x1_ptmp_NEW_corK',
 #hydrogSaltFile=  'input/LEVITUS_1x1_salt_NEW_corK',
 zonalWindFile=   '',

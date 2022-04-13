@@ -9,7 +9,7 @@
 # Diver3              # Phy species constituting bulk of biomass'
 # Diver4              # Phy species over threshold for ratio to maximum species'
 #
- &diagnostics_list
+&diagnostics_list
 #
   filename( 1) = '3d',
 # frequency(1) = 2592000.,
@@ -460,7 +460,7 @@
   fields( 48,10) = 'GrGn0048  ',
   fields( 49,10) = 'GrGn0049  ',
   fields( 50,10) = 'GrGn0050  ',
-&
+/
 
 # Parameter for Diagnostics of per level statistics:
 #-----------------
@@ -476,7 +476,7 @@
 #                 file for the list of all available diag. in this particular
 #config)
 #-----------------
- &DIAG_STATIS_PARMS
+&DIAG_STATIS_PARMS
  diagst_mnc=.FALSE.,
      stat_freq(1:3)= 3*10800.,
     stat_phase(1:3)= 3*0.,
@@ -486,4 +486,4 @@
     stat_fname(1)= 'statsPP',
     stat_fname(2)= 'statsNfix',
     stat_fname(3)= 'statsDenit',
- &
+/

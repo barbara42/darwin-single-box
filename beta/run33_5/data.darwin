@@ -1,13 +1,13 @@
 #######################
  &DARWIN_FORCING_PARAMS
- ironFile='/home/stephdut/Input/input_ecco/hamilton20_monthmeanSFe.bin',
+##CNH ironFile='/home/stephdut/Input/input_ecco/hamilton20_monthmeanSFe.bin',
  ironPeriod= -12.,
  darwin_inscal_iron= 1000.,
 #
- windFile='/home/stephdut/Input/input_ecco/tren_speed_mth-2d.bin',
+##CNH windFile='/home/stephdut/Input/input_ecco/tren_speed_mth-2d.bin',
  windPeriod= -12.,
 #
- icefile = '/home/stephdut/Input/input_ecco/SIarea.bin',
+##CNH icefile = '/home/stephdut/Input/input_ecco/SIarea.bin',
  icestartdate1 = 19990101,
  icestartdate2 = 120000,
  iceperiod     = 86400.0,
@@ -53,9 +53,9 @@
   CDOMcoeff = 21.,
  /
  &DARWIN_RADTRANS_PARAMS
- darwin_waterabsorbFile='/home/stephdut/OPTICS_COEFF2/optics_water.txt',
- darwin_phytoabsorbFile='/home/stephdut/OPTICS_COEFF2/optics_plankton.txt',
- darwin_particleabsorbFile='/home/stephdut/OPTICS_COEFF2/optics_detritus.txt',
+##CNH darwin_waterabsorbFile='/home/stephdut/OPTICS_COEFF2/optics_water.txt',
+##CNH darwin_phytoabsorbFile='/home/stephdut/OPTICS_COEFF2/optics_plankton.txt',
+##CNH darwin_particleabsorbFile='/home/stephdut/OPTICS_COEFF2/optics_detritus.txt',
  darwin_Sdom=0.0145000,
  darwin_aCDOM_fac = 0.30,
  darwin_part_size_P = 5e-17,
