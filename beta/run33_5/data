@@ -4,8 +4,10 @@
 # Continuous equation parameters
 # ******************************
 &PARM01
-tRef= 20.0 , 20.0,
-sRef= 35.0 , 35.0,
+#tRef= 20.0 , 20.0,
+#sRef= 35.0 , 35.0,
+tRef= 20.0,
+sRef= 35.0,
 no_slip_sides=.false.,
 no_slip_bottom=.TRUE.,
 viscAz=1.E-3,
@@ -79,7 +81,8 @@ usingCartesianGrid=.TRUE.,
 usingSphericalPolarGrid=.FALSE.,
 delX=1.E0,
 delY=1.E0,
-delZ=1.,1.,
+delZ=1.,
+# delZ=1.,1.,
 # xgOrigin=0,
 # ygOrigin=-80.,
 /
