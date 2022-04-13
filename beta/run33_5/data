@@ -49,7 +49,8 @@ cg2dTargetResidual=1.E-7,
 # ************************
 &PARM03
  nIter0= 0,
- nenditer=28800,
+#nenditer=28800,
+ nenditer=288000,
  deltaTmom=10800.,
  deltaTtracer=10800.,
  deltaTClock =10800.,
