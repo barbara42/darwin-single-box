@@ -1,0 +1,6 @@
+(PID.TID 0000.0001) ** WARNING ** DARWIN_EXF_READPARMS: default constant wind speed   5.000 m/s is used
+(PID.TID 0000.0001) ** WARNING ** OFFLINE_RESET_PARMS: => turn on exactConserv to compute wVel
+(PID.TID 0000.0001) SET_REF_STATE: Unable to compute reference stratification
+(PID.TID 0000.0001) SET_REF_STATE:  with EOS="POLY3" ; set dBdrRef(1:Nr) to zeros
+(PID.TID 0000.0001) *** ERROR ***  MDS_READ_FIELD: filename: ./resources/ecco_oasim2_edp01_below.bin.data
+(PID.TID 0000.0001) *** ERROR ***  MDS_READ_FIELD: File does not exist

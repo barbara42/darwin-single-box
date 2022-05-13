@@ -1,0 +1,8 @@
+# header of file: statsDenit
+# frequency (s):      10800.000000
+# phase (s)    :          0.000000
+# Regions      :   0
+# Fields       : Denit   
+# Nb of levels :    1
+# end of header ------------------------------------------------------------
+ 

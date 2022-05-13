@@ -1,0 +1,13 @@
+ nDims = [   2 ];
+ dimList = [
+     1,    1,    1,
+     1,    1,    1
+ ];
+ dataprec = [ 'float64' ];
+ nrecords = [          1 ];
+ timeStepNumber = [      25920 ];
+ timeInterval = [  2.799360000000E+08 ];
+ nFlds = [    1 ];
+ fldList = {
+ 'pH      '
+ };
