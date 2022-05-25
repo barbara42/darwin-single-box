@@ -12,7 +12,7 @@
  pickup_read_mnc=.FALSE.,
  pickup_write_mnc=.FALSE.,
  mnc_filefreq = 2592000.
- mnc_max_fsize=1E12,
+ mnc_max_fsize=1.0e12,
  &
 # Note: Some systems use & as the
 # namelist terminator. Other systems

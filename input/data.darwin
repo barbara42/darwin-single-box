@@ -16,7 +16,7 @@
  /
 ########################
  &DARWIN_PARAMS
- darwin_chlInitBalanced= T,
+ darwin_chlInitBalanced= .TRUE.,
  diaz_ini_fac= 0.1,
  idebug=271,
  jdebug=63,
@@ -62,7 +62,7 @@
  darwin_rCDOM = 1.0e-4,
  darwin_RPOC = 2.0,
 
- darwin_allomSpectra= T,
+ darwin_allomSpectra= .TRUE.,
  darwin_absorpSlope= -0.075,
  darwin_bbbSlope=    -1.458,
  darwin_scatSwitchSizeLog= 2.860959e-01, 2.923177e-01, 2.983251e-01, 3.140574e-01, 3.261153e-01,
@@ -131,7 +131,7 @@
  a_Qpmin = 8*0.005, 0.008, 0.008
  a_Qpmax = 8*0.02,  0.01,  0.01
 #
- darwin_effective_ksat= T,
+ darwin_effective_ksat= .TRUE.,
  darwin_select_kn_allom= 2,
 #
  grp_ExportFracPreyPred(1:8,9)= 8*.8,
