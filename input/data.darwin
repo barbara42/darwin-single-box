@@ -40,6 +40,8 @@
  kPOSi= 1.5432e-07,             ! 1/75day
  phygrazmin= 120E-10,
  hollexp = 1.E0,
+ wC_sink = 0.0,
+ wPIC_sink = 0.0,
  /
 ########################
  &DARWIN_CDOM_PARAMS
