@@ -1,4 +1,4 @@
-#######################
+######################
  &DARWIN_FORCING_PARAMS
 ##CNH ironFile='/home/stephdut/Input/input_ecco/hamilton20_monthmeanSFe.bin',
  ironPeriod= -12.,
@@ -41,6 +41,10 @@
  phygrazmin= 120E-10,
  hollexp = 1.E0,
  wC_sink = 0.0,
+ wN_sink = 0.0,
+ wP_sink = 0.0,
+ wFe_sink = 0.0,
+ wSi_sink = 0.0,
  wPIC_sink = 0.0,
  /
 ########################
@@ -127,7 +131,6 @@
  a_PCmax(8)= 1.3355,
  a_PCmax(9)= 0,
  a_PCmax(10)= 1.1603,
-
 
  a_PCmax_denom(:)= 8*86400.,
  b_PCmax(:)= 0.28, 0.28, 0.28, -0.10, -0.10, -0.10,-0.10, -0.10, 0., 0.28,

@@ -40,7 +40,8 @@ C enable air-sea carbon exchange and Alk and O2 tracers
 C optional bits
 
 C enable denitrification code
-#define DARWIN_ALLOW_DENIT
+C #define DARWIN_ALLOW_DENIT
+#undef DARWIN_ALLOW_DENIT
 
 C enable separate exudation of individual elements
 #undef  DARWIN_ALLOW_EXUDE

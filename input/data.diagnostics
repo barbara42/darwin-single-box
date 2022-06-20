@@ -461,6 +461,13 @@
   fields( 48,10) = 'GrGn0048  ',
   fields( 49,10) = 'GrGn0049  ',
   fields( 50,10) = 'GrGn0050  ',
+
+  filename( 11) = 'PC',
+  frequency(11) = 604800.0,
+  fields(  1,11) = 'PC0001  ',
+  fields(  2,11) = 'PC0002  ',
+  fields(  3,11) = 'PC0003  ',
+  fields(  4,11) = 'PC0004  ',
 /
 
 # Parameter for Diagnostics of per level statistics:
