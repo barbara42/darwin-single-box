@@ -13,7 +13,7 @@
 #
   filename( 1) = '3d',
 # frequency(1) = 2592000.,
-  frequency(1) = 5184000.,
+  frequency(1) = 1209600.,
 # frequency(1) = 155520000.,
   fields( 1,1) = 'TRAC01  ',
   fields( 2,1) = 'TRAC02  ',
