@@ -12,8 +12,9 @@
 &diagnostics_list
 #
   filename( 1) = '3d',
+  frequency(1) = 1296000.,
 # frequency(1) = 2592000.,
-  frequency(1) = 5184000.,
+#  frequency(1) = 5184000.,
 # frequency(1) = 155520000.,
   fields( 1,1) = 'TRAC01  ',
   fields( 2,1) = 'TRAC02  ',
@@ -92,8 +93,8 @@
   fields(77,1) = 'pCO2    ',
 #
   filename( 2) = 'chl',
-# frequency(2) = 2592000.,
-  frequency(2) = 5184000.,
+ frequency(2) = 2592000.,
+#  frequency(2) = 5184000.,
 # frequency(2) = 155520000.,
   fields( 1,2) = 'TRAC71  ',
   fields( 2,2) = 'TRAC72  ',
@@ -214,8 +215,8 @@
 
 #
   filename( 4) = 'par',
-# frequency(4) = 2592000.,
-  frequency(4) = 5184000.,
+ frequency(4) = 2592000.,
+#  frequency(4) = 5184000.,
 # frequency(4) = 155520000.,
   fields(  1,4) = 'Ed001   ',
   fields(  2,4) = 'Ed002   ',
@@ -272,9 +273,9 @@
 #
 #
   filename( 5) = 'nutr_tend',
-  frequency(5) = 5184000.,
+#  frequency(5) = 5184000.,
 # frequency(5) = 155520000.,
-# frequency(5) = 2592000.,
+ frequency(5) = 2592000.,
   fields( 1,5) = 'Tp_gTr01  ',
   fields( 2,5) = 'Tp_gTr02  ',
   fields( 3,5) = 'Tp_gTr03  ',
@@ -295,16 +296,16 @@
   fields(18,5) = 'S_Fe    ',
 #
   filename( 6) = '2d',
-# frequency(6) = 2592000.,
-  frequency(6) = 5184000.,
+  frequency(6) = 2592000.,
+# frequency(6) = 5184000.,
   fields( 1,6) = 'fluxCO2 ',
   fields( 2,6) = 'gDICsurf',
   fields( 3,6) = 'gALKsurf',
   fields( 4,6) = 'gO2surf ',
 #
   filename( 7) = 'PP',
-# frequency(7) = 2592000.,
-  frequency(7) = 5184000.,
+  frequency(7) = 2592000.,
+# frequency(7) = 5184000.,
   fields(  1,7) = 'PP0001  ',
   fields(  2,7) = 'PP0002  ',
   fields(  3,7) = 'PP0003  ',
@@ -338,8 +339,8 @@
   fields( 31,7) = 'PP0031  ',
 #
   filename( 8) = 'GR',
-# frequency(8) = 2592000.,
-  frequency(8) =  5184000.,
+  frequency(8) = 2592000.,
+# frequency(8) =  5184000.,
   fields(  1,8) = 'GR0001  ',
   fields(  2,8) = 'GR0002  ',
   fields(  3,8) = 'GR0003  ',
@@ -409,8 +410,8 @@
 #  fields( 13,9) = 'Rirr013 ',
 #
   filename( 10) = 'GRGN',
-# frequency(10) = 2592000.,
-  frequency(10) = 5184000.,
+ frequency(10) = 2592000.,
+#  frequency(10) = 5184000.,
   fields(  1,10) = 'GrGn0001  ',
   fields(  2,10) = 'GrGn0002  ',
   fields(  3,10) = 'GrGn0003  ',
