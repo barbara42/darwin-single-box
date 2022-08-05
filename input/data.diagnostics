@@ -12,7 +12,7 @@
 &diagnostics_list
 #
   filename( 1) = '3d',
-  frequency(1) = 1296000.,
+  frequency(1) = 1209600.,
 # frequency(1) = 2592000.,
 #  frequency(1) = 5184000.,
 # frequency(1) = 155520000.,

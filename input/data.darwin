@@ -26,6 +26,7 @@
  alpfe= 1.0,
  freefemax = .1E-3,
  depthfesed= 7000.,
+ fesedflux_pcm=0.,
 #scav_rat= 0.2,
  scav_rat=0.0,
  scav_inter=9.14351851851E-7,
